@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 190, 72);
+    padding: 20px ;
+    min-height: 100vh;
+}
+
+.app{
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    max-height: 100vh;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px;
+}
+.app *{
+    margin-top: 10px;
+}
+
+
+.imgcontainer img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.learning{
+    font-size: 15px;
+    background-color:rgb(253, 190, 72) ;
+    padding: 5px;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.publish{
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 7px 0px;
+}
+
+.header{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer img{
+    width: 35px;
+}
+
+.footer p{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.text{
+    font-size: 13px;
+}
